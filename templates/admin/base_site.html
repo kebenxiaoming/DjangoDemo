@@ -1,0 +1,9 @@
+{% extends "admin/base.html" %}
+
+{% block title %}{{ title }} | Sunny site{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">Hello Administration</a></h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
